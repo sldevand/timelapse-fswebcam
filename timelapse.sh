@@ -12,7 +12,6 @@ if [ ! -d "$TIMELAPSE_IMAGE_DIR" ]; then
     mkdir $TIMELAPSE_IMAGE_DIR
 fi
 
-
 for (( c=1; c<=$number; c++ ))
 do
     TIME=$(date +"%H-%M-%S")
